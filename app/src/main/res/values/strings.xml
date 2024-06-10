@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Life_cycle</string>
+    <string name="hello">Hello</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="move">MOVE</string>
+    <string name="move_to_next">move_to next</string>
+</resources>
