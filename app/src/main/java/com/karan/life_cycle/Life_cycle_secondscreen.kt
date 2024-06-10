@@ -1,5 +1,6 @@
 package com.karan.life_cycle
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -23,6 +24,9 @@ class Life_cycle_secondscreen : AppCompatActivity() {
         move2?.setOnClickListener {
 
             Toast.makeText(this, "button 2 is pressed", Toast.LENGTH_SHORT).show()
+            var intent=Intent(this,Life_cycle_thirdscreen::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }

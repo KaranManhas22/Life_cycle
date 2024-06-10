@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Life_cycle"
         tools:targetApi="31">
         <activity
+            android:name=".Life_cycle_thirdscreen"
+            android:exported="false" />
+        <activity
             android:name=".Life_cycle_secondscreen"
             android:exported="false" />
         <activity

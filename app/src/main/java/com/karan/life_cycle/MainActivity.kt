@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Button is pressed", Toast.LENGTH_SHORT).show()
             var intent= Intent(this ,Life_cycle_secondscreen::class.java)
             startActivity(intent)
-            finish()
+
             }
         }
     }
